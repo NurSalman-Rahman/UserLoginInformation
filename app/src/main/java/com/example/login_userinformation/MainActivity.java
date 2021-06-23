@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
         tvRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "ff", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(com.example.login_userinformation.MainActivity.this,com.example.login_userinformation.RegisterActivity.class));
                         finish();
             }
